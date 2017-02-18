@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container_scroll_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.design.widget.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/AppTheme.AppBarOverlay"
+            android:id="@+id/toolbarAboutUsLayout">
+
+             <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbarAboutUs"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="?attr/colorPrimary" />
+
+        </android.support.design.widget.AppBarLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/logo_background"
+            android:id="@+id/banner"
+            android:layout_margin="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/aboutus_banner"
+            android:id="@+id/about_us_banner"
+            android:layout_marginTop="52dp"
+            android:layout_below="@+id/toolbarAboutUsLayout"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/text"
+            android:layout_marginTop="86dp"
+            android:layout_alignTop="@+id/about_us_banner"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/about_us_text"/>
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/dev"
+            android:id="@+id/about_us_dev"
+            android:layout_marginTop="52dp"
+            android:layout_below="@id/about_us_text"
+            android:layout_centerHorizontal="true"/>
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:id="@+id/dev_naman"
+            android:src="@drawable/naman"
+            android:layout_below="@+id/about_us_dev"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="20dp"/>
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:id="@+id/dev_rish"
+            android:src="@drawable/rish"
+            android:layout_below="@+id/about_us_dev"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"/>
+
+    </RelativeLayout>
+</ScrollView>

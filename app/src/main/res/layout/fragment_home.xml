@@ -1,0 +1,166 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container_scroll_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:columnCount="2">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:src="@drawable/logo_background"
+            android:layout_columnSpan="2"/>
+
+    <RelativeLayout
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+
+        <ImageButton
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:src="@drawable/ic_account_circle_black_24dp"
+            android:id="@+id/imgbtn1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Profile"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/imgbtn1"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+
+        <ImageButton
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:src="@drawable/ic_shopping_cart_black_24dp"
+            android:id="@+id/imgbtn2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Shopping Cart"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/imgbtn2"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+
+        <ImageButton
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:src="@drawable/ic_chat_black_24dp"
+            android:id="@+id/imgbtn3" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Real Time Assistance"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/imgbtn3"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+
+        <ImageButton
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:src="@drawable/ic_favorite_black_24dp"
+            android:id="@+id/imgbtn4" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Favourites"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/imgbtn4"/>
+
+    </RelativeLayout>
+
+  <!--  <RelativeLayout
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+
+        <ImageButton
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:src="@drawable/ic_history_black_24dp"
+            android:id="@+id/imgbtn5" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Order History"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/imgbtn5"/>
+
+    </RelativeLayout> -->
+
+    <RelativeLayout
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+
+        <ImageButton
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:src="@drawable/ic_info_black_24dp"
+            android:id="@+id/imgbtn6" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Information"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/imgbtn6"/>
+
+    </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+
+            <ImageButton
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:src="@drawable/ic_video_library_black_24dp"
+                android:id="@+id/imgbtn7" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Watch our video"
+                android:textStyle="bold"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/imgbtn7"/>
+
+        </RelativeLayout>
+
+</GridLayout>
+</ScrollView>

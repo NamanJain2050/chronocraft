@@ -1,0 +1,215 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container_scroll_view_top_ring"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:columnCount="2">
+
+
+        <RelativeLayout
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+
+            <ImageView
+                android:id="@+id/top_ring_1"
+                android:layout_width="160dp"
+                android:layout_height="200dp"
+                android:src="@drawable/top_ring_1"/>
+
+            <TextView
+                android:id="@+id/top_ring_1_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Attitude"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/top_ring_1"/>
+
+            <TextView
+                android:id="@+id/top_ring_1_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rs. 150"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/top_ring_1_text"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+
+            <ImageView
+                android:id="@+id/top_ring_2"
+                android:layout_width="160dp"
+                android:layout_height="200dp"
+                android:src="@drawable/top_ring_2"/>
+
+            <TextView
+                android:id="@+id/top_ring_2_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Attitude Black"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/top_ring_2"/>
+
+            <TextView
+                android:id="@+id/top_ring_2_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rs. 150"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/top_ring_2_text"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+
+            <ImageView
+                android:id="@+id/top_ring_3"
+                android:layout_width="160dp"
+                android:layout_height="200dp"
+                android:src="@drawable/top_ring_3"/>
+
+            <TextView
+                android:id="@+id/top_ring_3_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Attitude Rose"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/top_ring_3"/>
+
+            <TextView
+                android:id="@+id/top_ring_3_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rs. 150"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/top_ring_3_text"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+
+            <ImageView
+                android:id="@+id/top_ring_4"
+                android:layout_width="160dp"
+                android:layout_height="200dp"
+                android:src="@drawable/top_ring_4"/>
+
+            <TextView
+                android:id="@+id/top_ring_4_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pure"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/top_ring_4"/>
+
+            <TextView
+                android:id="@+id/top_ring_4_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rs. 200"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/top_ring_4_text"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+
+            <ImageView
+                android:id="@+id/top_ring_5"
+                android:layout_width="160dp"
+                android:layout_height="200dp"
+                android:src="@drawable/top_ring_5"/>
+
+            <TextView
+                android:id="@+id/top_ring_5_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pure Black"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/top_ring_5"/>
+
+            <TextView
+                android:id="@+id/top_ring_5_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rs. 200"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/top_ring_5_text"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+
+            <ImageView
+                android:id="@+id/top_ring_6"
+                android:layout_width="160dp"
+                android:layout_height="200dp"
+                android:src="@drawable/top_ring_6"/>
+
+            <TextView
+                android:id="@+id/top_ring_6_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pure Rose Gold"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/top_ring_6"/>
+
+            <TextView
+                android:id="@+id/top_ring_6_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rs. 200"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/top_ring_6_text"/>
+
+        </RelativeLayout>
+
+
+    </GridLayout>
+</ScrollView>

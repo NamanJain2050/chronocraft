@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container_scroll_view_watch"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_watch_one"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="com.cronocraft.cronocraft.watches.WatchOneActivity"
+        android:background="#000000">
+
+        <ImageView
+            android:id="@+id/watchAct6Img"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/watch_6_big" />
+
+        <TextView
+            android:id="@+id/watchAct6Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BARCELONA 41 MM"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/watchAct6Img"
+            android:layout_margin="20dp"/>
+
+        <TextView
+            android:id="@+id/watchAct6Avail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Availability: In Stock"
+            android:textColor="#40C027"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/watchAct6Title"
+            android:layout_margin="20dp"/>
+
+        <TextView
+            android:id="@+id/watchAct6Desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SPORT COLLECTION\n\nWhether the time on your dial reads 6am or 11pm, keep going with a watch from our dynamic Sport collection. For those with an energetic and competitive personality, this range combines a functional, but stylish, nylon wristband with an extra-detailed dial that will help you run that extra mile, swim that further length and dig that little bit deeper."
+            android:textColor="#ffffff"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/watchAct6Avail"
+            android:layout_margin="20dp"/>
+
+        <TextView
+            android:id="@+id/watchAct6Specs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SPECIFICATIONS\n\nSize: 41 mm\n\nThickness: 8.7 mm\n\nStrap width: 20 mm\n\nMaterial: Stainless Steel\n\nWater resist: 5 ATM"
+            android:textColor="#ffffff"
+            android:layout_below="@id/watchAct6Desc"
+            android:layout_margin="20dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add To Shopping Bag"
+            android:background="#1AB2A5"
+            android:padding="10dp"
+            android:layout_margin="20dp"
+            android:layout_below="@id/watchAct6Specs"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="35dp"
+            android:text="Rs. 2000"
+            android:textColor="#ffffff"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/watchAct6Specs"/>
+
+
+    </RelativeLayout>
+</ScrollView>

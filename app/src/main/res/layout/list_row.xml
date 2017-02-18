@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/list_row_selector"
+    android:padding="8dp">
+
+
+    <ImageView
+        android:id="@+id/cartStrap"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="8dp"/>
+
+    <ImageView
+        android:id="@+id/cartCase"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="8dp"/>
+
+    <ImageView
+        android:id="@+id/cartDial"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="8dp"/>
+
+    <ImageView
+        android:id="@+id/cartTopRing"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="8dp"/>
+
+    <TextView
+        android:text="Build Watch"
+        android:id="@+id/cartTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/cartStrap"
+        android:layout_toRightOf="@+id/cartStrap"
+        android:textSize="@dimen/title"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/cartCost"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cartTitle"
+        android:layout_marginTop="1dip"
+        android:layout_toRightOf="@+id/cartStrap"
+        android:textSize="@dimen/cost" />
+
+    <TextView
+        android:id="@+id/cartStrapTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cartCost"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@+id/cartStrap"
+        android:textColor="@color/text"
+        android:textSize="@dimen/text" />
+
+    <TextView
+        android:id="@+id/cartCaseTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cartStrapTitle"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@+id/cartStrap"
+        android:textColor="@color/text"
+        android:textSize="@dimen/text" />
+
+    <TextView
+        android:id="@+id/cartDialTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cartCaseTitle"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@+id/cartStrap"
+        android:textColor="@color/text"
+        android:textSize="@dimen/text" />
+
+    <TextView
+        android:id="@+id/cartTopRingTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cartDialTitle"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@+id/cartStrap"
+        android:textColor="@color/text"
+        android:textSize="@dimen/text" />
+
+    <Button
+        android:id="@+id/cartRemoveFromButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cartTopRingTitle"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@+id/cartStrap"
+        android:textColor="@color/text"
+        android:textSize="@dimen/text"
+        android:text="Remove"/>
+
+</RelativeLayout>

@@ -1,0 +1,215 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container_scroll_view_strap"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:columnCount="2">
+
+
+        <RelativeLayout
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+
+            <ImageView
+                android:id="@+id/strap_1"
+                android:layout_width="160dp"
+                android:layout_height="200dp"
+                android:src="@drawable/strap_1"/>
+
+            <TextView
+                android:id="@+id/strap_1_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Leather Classic"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/strap_1"/>
+
+            <TextView
+                android:id="@+id/strap_1_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rs. 400"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/strap_1_text"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+
+            <ImageView
+                android:id="@+id/strap_2"
+                android:layout_width="160dp"
+                android:layout_height="200dp"
+                android:src="@drawable/strap_2"/>
+
+            <TextView
+                android:id="@+id/strap_2_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Leather Weaved"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/strap_2"/>
+
+            <TextView
+                android:id="@+id/strap_2_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rs. 500"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/strap_2_text"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+
+            <ImageView
+                android:id="@+id/strap_3"
+                android:layout_width="160dp"
+                android:layout_height="200dp"
+                android:src="@drawable/strap_3"/>
+
+            <TextView
+                android:id="@+id/strap_3_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nato Nylon"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/strap_3"/>
+
+            <TextView
+                android:id="@+id/strap_3_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rs. 650"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/strap_3_text"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+
+            <ImageView
+                android:id="@+id/strap_4"
+                android:layout_width="160dp"
+                android:layout_height="200dp"
+                android:src="@drawable/strap_4"/>
+
+            <TextView
+                android:id="@+id/strap_4_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Metal Mesh"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/strap_4"/>
+
+            <TextView
+                android:id="@+id/strap_4_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rs. 750"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/strap_4_text"/>
+
+        </RelativeLayout>
+
+      <!--  <RelativeLayout
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+
+            <ImageView
+                android:id="@+id/strap_5"
+                android:layout_width="160dp"
+                android:layout_height="200dp"
+                android:src="@drawable/strap_5"/>
+
+            <TextView
+                android:id="@+id/strap_5_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Metal Mesh Black"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/strap_5"/>
+
+            <TextView
+                android:id="@+id/strap_5_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rs. 750"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/strap_5_text"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+
+            <ImageView
+                android:id="@+id/strap_6"
+                android:layout_width="160dp"
+                android:layout_height="200dp"
+                android:src="@drawable/strap_6"/>
+
+            <TextView
+                android:id="@+id/strap_6_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Metal Mesh Rose"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/strap_6"/>
+
+            <TextView
+                android:id="@+id/strap_6_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rs. 750"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/strap_6_text"/>
+
+        </RelativeLayout> -->
+
+
+    </GridLayout>
+</ScrollView>

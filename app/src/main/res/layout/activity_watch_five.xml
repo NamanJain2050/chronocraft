@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container_scroll_view_watch"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_watch_one"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="com.cronocraft.cronocraft.watches.WatchOneActivity"
+        android:background="#000000">
+
+        <ImageView
+            android:id="@+id/watchAct5Img"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/watch_5_big" />
+
+        <TextView
+            android:id="@+id/watchAct5Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PRAGUE 41 MM"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/watchAct5Img"
+            android:layout_margin="20dp"/>
+
+        <TextView
+            android:id="@+id/watchAct5Avail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Availability: In Stock"
+            android:textColor="#40C027"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/watchAct5Title"
+            android:layout_margin="20dp"/>
+
+        <TextView
+            android:id="@+id/watchAct5Desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CLASSIC COLLECTION\n\nWith cases available in steel and rose gold and dials offered in black, silver, cognac, black rose and silver rose, our classy timepieces lend a subtle elegance to the wearer's wrist. Mix and match with our mesh or leather wristbands and you have a watch that will power you through the morning commute, the afternoon meeting and well into evening drinks."
+            android:textColor="#ffffff"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/watchAct5Avail"
+            android:layout_margin="20dp"/>
+
+        <TextView
+            android:id="@+id/watchAct5Specs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SPECIFICATIONS\n\nSize: 41 mm\n\nThickness: 8.7 mm\n\nStrap width: 20 mm\n\nMaterial: Stainless Steel\n\nWater resist: 5 ATM"
+            android:textColor="#ffffff"
+            android:layout_below="@id/watchAct5Desc"
+            android:layout_margin="20dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add To Shopping Bag"
+            android:background="#1AB2A5"
+            android:padding="10dp"
+            android:layout_margin="20dp"
+            android:layout_below="@id/watchAct5Specs"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="35dp"
+            android:text="Rs. 2000"
+            android:textColor="#ffffff"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/watchAct5Specs"/>
+
+
+    </RelativeLayout>
+</ScrollView>

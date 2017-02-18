@@ -1,0 +1,357 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container_scroll_view_watch"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:columnCount="2">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/home_banner_watch"
+            android:layout_columnSpan="2"
+            android:layout_margin="10dp"/>
+
+        <RelativeLayout
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+
+            <ImageView
+                android:id="@+id/watches_1"
+                android:layout_width="160dp"
+                android:layout_height="200dp"
+                android:src="@drawable/watch_1"/>
+
+            <TextView
+                android:id="@+id/watches_1_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Prague 41 MM"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/watches_1"/>
+
+            <TextView
+                android:id="@+id/watches_1_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rs. 1500"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/watches_1_text"/>
+
+            <Button
+                android:id="@+id/watches_1_btn"
+                android:layout_margin="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add to Favourites"
+                android:padding="10dp"
+                android:layout_below="@id/watches_1_price"
+                android:background="#1AB2A5" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+
+            <ImageView
+                android:id="@+id/watches_2"
+                android:layout_width="160dp"
+                android:layout_height="200dp"
+                android:src="@drawable/watch_2"/>
+
+            <TextView
+                android:id="@+id/watches_2_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Paris 41 MM"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/watches_2"/>
+
+            <TextView
+                android:id="@+id/watches_2_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rs. 1500"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/watches_2_text"/>
+
+            <Button
+                android:id="@+id/watches_2_btn"
+                android:layout_margin="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add to Favourites"
+                android:padding="10dp"
+                android:layout_below="@id/watches_2_price"
+                android:background="#1AB2A5" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+
+            <ImageView
+                android:id="@+id/watches_3"
+                android:layout_width="160dp"
+                android:layout_height="200dp"
+                android:src="@drawable/watch_3"/>
+
+            <TextView
+                android:id="@+id/watches_3_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Paris 41 MM"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/watches_3"/>
+
+            <TextView
+                android:id="@+id/watches_3_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rs. 1500"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/watches_3_text"/>
+
+            <Button
+                android:id="@+id/watches_3_btn"
+                android:layout_margin="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add to Favourites"
+                android:padding="10dp"
+                android:layout_below="@id/watches_3_price"
+                android:background="#1AB2A5" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+
+            <ImageView
+                android:id="@+id/watches_4"
+                android:layout_width="160dp"
+                android:layout_height="200dp"
+                android:src="@drawable/watch_4"/>
+
+            <TextView
+                android:id="@+id/watches_4_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Barcelona 41 MM"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/watches_4"/>
+
+            <TextView
+                android:id="@+id/watches_4_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rs. 1500"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/watches_4_text"/>
+
+            <Button
+                android:id="@+id/watches_4_btn"
+                android:layout_margin="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add to Favourites"
+                android:padding="10dp"
+                android:layout_below="@id/watches_4_price"
+                android:background="#1AB2A5" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+
+            <ImageView
+                android:id="@+id/watches_5"
+                android:layout_width="160dp"
+                android:layout_height="200dp"
+                android:src="@drawable/watch_5"/>
+
+            <TextView
+                android:id="@+id/watches_5_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Prague 41 MM"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/watches_5"/>
+
+            <TextView
+                android:id="@+id/watches_5_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rs. 2000"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/watches_5_text"/>
+
+            <Button
+                android:id="@+id/watches_5_btn"
+                android:layout_margin="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add to Favourites"
+                android:padding="10dp"
+                android:layout_below="@id/watches_5_price"
+                android:background="#1AB2A5" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+
+            <ImageView
+                android:id="@+id/watches_6"
+                android:layout_width="160dp"
+                android:layout_height="200dp"
+                android:src="@drawable/watch_6"/>
+
+            <TextView
+                android:id="@+id/watches_6_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Barcelona 41 MM"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/watches_6"/>
+
+            <TextView
+                android:id="@+id/watches_6_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rs. 2000"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/watches_6_text"/>
+
+            <Button
+                android:id="@+id/watches_6_btn"
+                android:layout_margin="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add to Favourites"
+                android:padding="10dp"
+                android:layout_below="@id/watches_6_price"
+                android:background="#1AB2A5" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+
+            <ImageView
+                android:id="@+id/watches_7"
+                android:layout_width="160dp"
+                android:layout_height="200dp"
+                android:src="@drawable/watch_7"/>
+
+            <TextView
+                android:id="@+id/watches_7_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Paris 41 MM"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/watches_7"/>
+
+            <TextView
+                android:id="@+id/watches_7_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rs. 2500"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/watches_7_text"/>
+
+            <Button
+                android:id="@+id/watches_7_btn"
+                android:layout_margin="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add to Favourites"
+                android:padding="10dp"
+                android:layout_below="@id/watches_7_price"
+                android:background="#1AB2A5" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+
+            <ImageView
+                android:id="@+id/watches_8"
+                android:layout_width="160dp"
+                android:layout_height="200dp"
+                android:src="@drawable/watch_8"/>
+
+            <TextView
+                android:id="@+id/watches_8_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Prague 41 MM"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/watches_8"/>
+
+            <TextView
+                android:id="@+id/watches_8_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rs. 2500"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/watches_8_text"/>
+
+            <Button
+                android:id="@+id/watches_8_btn"
+                android:layout_margin="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add to Favourites"
+                android:padding="10dp"
+                android:layout_below="@id/watches_8_price"
+                android:background="#1AB2A5" />
+        </RelativeLayout>
+    </GridLayout>
+</ScrollView>

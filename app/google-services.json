@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "575032138102",
+    "firebase_url": "https://chronocraft-12989.firebaseio.com",
+    "project_id": "chronocraft-12989",
+    "storage_bucket": "chronocraft-12989.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:575032138102:android:1f373e0718e59d01",
+        "android_client_info": {
+          "package_name": "com.cronocraft.cronocraft"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "575032138102-bn4tv3586bqejcqhgju244kkqv01g8t9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCr8ccdom6Kn-rNxjWgCB6m0L4G5x9GuJI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
